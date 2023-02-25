@@ -1,0 +1,23 @@
+* {
+    outline: solid 1px red;
+}
+
+/* body */
+body {
+    background-color: #262626;
+    font-family: Space Mono;
+    color: #fcf4f8;
+}
+
+/* navbar */
+.nav-heading {
+    color: #fcf4f8;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.nav-text {
+    padding: 1%;
+    padding-top: 5%;
+}
