@@ -31,16 +31,17 @@ body {
 }
 
 
-.typewriterSplash::before {    
+#typewriterSplash::before {    
     content: "";
     background-image: url('../images/plantvascular40x.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.75;
+    opacity: 0.35;
 }
 
 
