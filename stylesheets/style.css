@@ -137,6 +137,10 @@ body {
     flex-direction: column;
 }
 
+#libLogos {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
 .columnTwo {
     display: flex;
     flex-direction: column;
@@ -166,6 +170,7 @@ codersrank-skills-chart {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .logo {
