@@ -98,6 +98,23 @@ body {
     to { border-color: transparent }
 }
 
+/* about */
+#aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+.aboutBG {
+    padding: 2%;
+    background-color: rgba(0,0,0, .75);
+}
+
+.aboutBG ul {
+    list-style: none;
+}
+
 /* technology */
 
 /* project */
