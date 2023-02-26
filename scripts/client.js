@@ -26,7 +26,7 @@ function scrollToAbout() {
 function scrollToTech() {
     console.log('scrolling');
     const targetContainer = $("main");
-    const target = $(".columnOne"); 
+    const target = $("#techSection"); 
     const position = target.offset().top
                 - targetContainer.offset().top
                 + targetContainer.scrollTop();
