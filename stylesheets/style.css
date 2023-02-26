@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: solid 1px red;
-}
+} */
 
 /* body */
 body {
@@ -21,3 +21,83 @@ body {
     padding: 1%;
     padding-top: 5%;
 }
+
+/* splash section */
+#typewriterSplash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+
+.typewriterSplash::before {    
+    content: "";
+    background-image: url('../images/plantvascular40x.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+
+.greeting {
+    display: flex;
+    justify-content: center;
+}
+
+.splash-container {
+    display: inline-block;
+
+}
+
+.typed-out-one {
+    overflow: hidden;
+    border-right: .15em solid #6c5a8f;
+    white-space: nowrap;
+    animation: 
+    typing 2s steps(20, end) forwards,
+    blink .8s step-end infinite;
+    animation-duration: 2s;
+    font-size: 1.6rem;
+    width: 0;
+}
+
+.typed-out-two {
+    overflow: hidden;
+    border-right: .15em solid #6c5a8f;
+    white-space: nowrap;
+    animation: 
+    typing 2s steps(20, end) forwards,
+    blink .8s step-end infinite;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    font-size: 1.6rem;
+    width: 0;
+}
+
+.typed-out-three {
+    overflow: hidden;
+    border-right: .15em solid #6c5a8f;
+    white-space: nowrap;
+    animation: 
+    typing 2s steps(20, end) forwards,
+    blink .8s step-end infinite;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    font-size: 1.6rem;
+    width: 0;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    from { border-color: #6c5a8f }
+    to { border-color: transparent }
+  }
