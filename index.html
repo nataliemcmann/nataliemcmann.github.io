@@ -17,6 +17,9 @@
     rel="stylesheet"
     />
     <!-- MDB 👆 -->
+    <!-- Coders Rank Widget -->
+    <!-- replace x.x.x with actual version -->
+<script src="https://unpkg.com/@codersrank/skills-chart@0.9.21/codersrank-skills-chart.min.js"></script>
     <!-- Space Mono Font -->
     <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
     <link href="./stylesheets/style.css" rel="stylesheet" />
@@ -26,7 +29,7 @@
     <header>
         <nav 
         class="navbar navbar-expand-lg" 
-        style="background-color: #6c5a8f; position: fixed; top: 0; width: 100%;"
+        style="background-color: #6c5a8f;"
         >
             <div class="container-fluid justify-content-center">
                 <ul class="navbar-nav">
@@ -95,7 +98,29 @@
             </div>
         </section>
         <section id="techSection">
-            <h3>Libraries and Languages</h3>
+            <div class="columnOne">
+                <h3>Libraries</h3>
+            </div>
+            <div class="columnTwo">
+                <h3>Languages</h3>
+                <div id="codersrank-widget">
+                    <codersrank-skills-chart
+                    username="nataliemcmann"
+                    labels
+                    legend
+                    >
+                    </codersrank-skills-chart>
+                </div>
+            </div>
+            <div class="columnThree">
+                <h3>Databases</h3>
+                <div id="dbLogos">
+                    <img
+                    class="logo"
+                    src="https://www.postgresql.org/media/img/about/press/elephant.png"
+                    />
+                </div>
+            </div>
         </section>
         <section id="projectSection">
             <h3>Projects</h3>

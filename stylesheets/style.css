@@ -1,13 +1,12 @@
-* {
+/* * {
     outline: solid 1px red;
-}
+} */
 
 /* body */
 body {
     background-color: #262626;
     font-family: Space Mono;
     color: #fcf4f8;
-    margin-top: 6%;
 }
 
 /* navbar */
@@ -118,6 +117,61 @@ body {
 }
 
 /* technology */
+
+#techSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+    text-align: center;
+}
+
+#techSection h3 {
+    width: 300px;
+    padding: 1%;
+    background-color: rgba(0,0,0, .75);
+}
+
+.columnOne {
+    display: flex;
+    flex-direction: column;
+}
+
+.columnTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#codersrank-widget {
+    display: flex;
+    flex-direction: column;
+}
+
+codersrank-skills-chart {
+    display: flex;
+    width: 60%;
+    margin-top: 1%;
+    --font-family: Space Mono;
+    --svg-width: 100%;
+    align-self: center;
+}
+
+.columnThree {
+    display: flex;
+    flex-direction: column;
+}
+
+#dbLogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
 
 /* project */
 
