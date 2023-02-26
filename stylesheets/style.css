@@ -28,20 +28,15 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 2%;
+    background-image: url('../images/plantvascular40x.jpg');
+    background-size: cover;
+    position: relative;
 }
 
 
-#typewriterSplash::before {    
-    content: "";
-    background-image: url('../images/plantvascular40x.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.35;
+.splash-content {
+    padding: 2%;
+    background-color: rgba(0,0,0, .75);
 }
 
 
@@ -101,4 +96,24 @@ body {
 @keyframes blink {
     from { border-color: #6c5a8f }
     to { border-color: transparent }
-  }
+}
+
+/* technology */
+
+/* project */
+
+/* contact footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    background-image: url('../images/plantvascular40x.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#contactSection {
+    padding: 2%;
+    background-color: rgba(0,0,0, .75);
+}
