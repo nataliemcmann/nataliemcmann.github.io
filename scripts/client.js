@@ -6,7 +6,7 @@ function onReady() {
     console.log('jQuery ready');
     //click handlers for nav bar
     $('.scrollAbout').on('click', scrollToAbout);
-    // $('.scrollTechnology').on('click', scrollToTech);
+    $('.scrollTechnology').on('click', scrollToTech);
     // $('.scrollProjects').on('click', scrollToProjects);
     $('.scrollLinks').on('click', scrollToLinks);
 };
@@ -22,16 +22,16 @@ function scrollToAbout() {
     $('html, body').animate({ scrollTop: position}, 300);
 }
 
-//Tech Scroll
-// function scrollToTech() {
-//     console.log('scrolling');
-//     const targetContainer = $("main");
-//     const target = $(".techBG"); //name to change
-//     const position = target.offset().top
-//                 - targetContainer.offset().top
-//                 + targetContainer.scrollTop();
-//     $('html, body').animate({ scrollTop: position}, 300);
-// }
+// Tech Scroll
+function scrollToTech() {
+    console.log('scrolling');
+    const targetContainer = $("main");
+    const target = $(".columnOne"); 
+    const position = target.offset().top
+                - targetContainer.offset().top
+                + targetContainer.scrollTop();
+    $('html, body').animate({ scrollTop: position}, 300);
+}
 
 //Project Scroll
 // function scrollToProjects() {
