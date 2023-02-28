@@ -13,7 +13,7 @@ function onReady() {
 
 //About scroll
 function scrollToAbout() {
-    console.log('scrolling');
+    // console.log('scrolling');
     const targetContainer = $("main");
     const target = $(".aboutBG");
     const position = target.offset().top
@@ -24,7 +24,7 @@ function scrollToAbout() {
 
 // Tech Scroll
 function scrollToTech() {
-    console.log('scrolling');
+    // console.log('scrolling');
     const targetContainer = $("main");
     const target = $("#techSection"); 
     const position = target.offset().top
@@ -35,9 +35,9 @@ function scrollToTech() {
 
 // Project Scroll
 function scrollToProjects() {
-    console.log('scrolling');
+    // console.log('scrolling');
     const targetContainer = $("main");
-    const target = $("#projectSection"); //name to change
+    const target = $("#projectSection"); 
     const position = target.offset().top
                 - targetContainer.offset().top
                 + targetContainer.scrollTop();
@@ -46,9 +46,9 @@ function scrollToProjects() {
 
 // Links Scroll
 function scrollToLinks() {
-    console.log('scrolling');
+    // console.log('scrolling');
     const targetContainer = $("main");
-    const target = $("#contactSection"); //name to change
+    const target = $("#contactSection"); 
     const position = target.offset().top
                 - targetContainer.offset().top
                 + targetContainer.scrollTop();
@@ -56,5 +56,3 @@ function scrollToLinks() {
 }
 
 
-//vanilla JS to scroll to specific element ID
-// document.getElementById("element-id").scrollIntoView();
