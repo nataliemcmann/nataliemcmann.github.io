@@ -190,6 +190,7 @@ codersrank-skills-chart {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin: 2%;
 }
 
 .logo {
