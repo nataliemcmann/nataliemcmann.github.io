@@ -260,3 +260,9 @@ footer {
     padding: 2%;
     background-color: rgba(0,0,0, .75);
 }
+
+.contactLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
