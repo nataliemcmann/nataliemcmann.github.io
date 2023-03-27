@@ -225,13 +225,23 @@ codersrank-skills-chart {
     row-gap: 2%;
     padding: 2%;
     text-align: center;
-
 }
 
 .card {
-    max-width: 30%;
-    max-height: 60%;
+    width: 30%;
+    max-height: 30%;
     background-color: #0b070d;
+    margin: 2%;
+}
+
+.img-fluid {
+    max-width: 400px;
+    height: auto;
+}
+
+.card p {
+    text-align: left;
+    margin-top: 2%;
 }
 
 
